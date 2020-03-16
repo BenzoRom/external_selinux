@@ -7,6 +7,7 @@ common_CFLAGS = [
     "-Wshadow",
     "-Wno-error=missing-noreturn",
     "-Wmissing-format-attribute",
+    "-Wno-pointer-to-enum-cast",
     "-fcommon",
 ]
 
